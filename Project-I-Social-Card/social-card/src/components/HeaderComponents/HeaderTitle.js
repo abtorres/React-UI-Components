@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import HeaderContent from './HeaderContent';
 
 class HeaderTitle extends React.Component {
     state = {
@@ -25,7 +26,10 @@ class HeaderTitle extends React.Component {
         const {day} = this.state;
         const {month} = this.state;
         return (
-            <h1>Lambda School @Lambdaschool {month} {day}</h1>
+            <div>
+                <h1>Lambda School @Lambdaschool {day} {month}</h1>
+                <HeaderContent/>
+            </div>
         );
     }
 }
