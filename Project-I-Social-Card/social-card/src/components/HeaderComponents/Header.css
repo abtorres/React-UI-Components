@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.header-container {
+    background: green;
+    display: flex;
+    /* margin: 10px; */
+    padding: 10px;
+}
+
+.thumbnail {
+    width: 10%;
+    height: auto;
+}
+
+.header-title {
+    width: 80%;
+    margin: 5px;
+}
+
+.header-title h1 {
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+}

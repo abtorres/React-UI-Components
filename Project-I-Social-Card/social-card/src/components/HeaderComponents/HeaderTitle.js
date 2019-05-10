@@ -26,7 +26,7 @@ class HeaderTitle extends React.Component {
         const {day} = this.state;
         const {month} = this.state;
         return (
-            <div>
+            <div className="header-title">
                 <h1>Lambda School @Lambdaschool {day} {month}</h1>
                 <HeaderContent/>
             </div>
