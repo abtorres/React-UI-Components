@@ -4,7 +4,8 @@
 */
 
 .app {
-  background: red;
   width: 65%;
-  height: fit-content;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

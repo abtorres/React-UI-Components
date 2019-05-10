@@ -1,14 +1,16 @@
 /* All styles for your header Components live here */
 .header-container {
-    background: green;
     display: flex;
     /* margin: 10px; */
     padding: 10px;
+    max-width: 80%;
+    align-self: center;
 }
 
 .thumbnail {
     width: 10%;
-    height: auto;
+    height: 70px;
+    padding-top: 5px;
 }
 
 .header-title {

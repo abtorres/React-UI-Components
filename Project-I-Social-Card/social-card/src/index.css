@@ -51,7 +51,6 @@ table {
 
 /* root element */
 #root {
-	background: blue;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
