@@ -1,0 +1,18 @@
+
+
+.number-button {
+    width: 25%;
+    height: 75px;
+    font-size: 1.6rem;
+}
+
+.clear-zero {
+    width: 75%;
+    height: 75px;
+    font-size: 1.6rem;
+}
+
+.operators {
+    background: rgb(255, 2, 65);
+    color: white;
+}
